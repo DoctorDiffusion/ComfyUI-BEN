@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-ben"
+description = "Remove backgrounds from images with [a/BEN](https://huggingface.co/PramaLLC/BEN) in ComfyUI"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["huggingface_hub", "Image", "numpy", "torch", "einops", "Pillow", "timm", "torchvision"]
+
+[project.urls]
+Repository = "https://github.com/DoctorDiffusion/ComfyUI-BEN"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-BEN"
+Icon = ""
